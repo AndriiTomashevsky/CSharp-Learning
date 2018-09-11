@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Import the static members of Console and DateTime.
+using static System.Console;
+using static System.DateTime;
 
 // Static classes can only
 // contain static members!
@@ -6,11 +8,11 @@ static class TimeUtilClass
 {
     public static void PrintTime()
     {
-        Console.WriteLine(DateTime.Now.ToShortTimeString());
+        WriteLine(Now.ToShortTimeString());
     }
 
     public static void PrintDate()
     {
-        Console.WriteLine(DateTime.Today.ToShortDateString());
+        WriteLine(Today.ToShortDateString());
     }
 }
