@@ -1,14 +1,14 @@
 ﻿// A simple savings account class.
 class SavingsAccount
 {
-    // Instance-level data.
     public double currBalance;
+    public static double currInterestRate;
 
-    // A static point of data.
-    public static double currInterestRate = 0.04;
-
+    // Notice that our constructor is setting
+    // the static currInterestRate value.
     public SavingsAccount(double balance)
     {
+        currInterestRate = 0.04; // This is static data!
         currBalance = balance;
     }
 
