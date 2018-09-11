@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6F13CDA7-53CE-4F13-9124-A0D628D1213C}</ProjectGuid>
+    <ProjectGuid>{331FE74C-A1C7-47C9-880B-8B1E5EAE6E63}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>StaticDataAndMembers</RootNamespace>
-    <AssemblyName>StaticDataAndMembers</AssemblyName>
+    <RootNamespace>SimpleUtilityClass</RootNamespace>
+    <AssemblyName>SimpleUtilityClass</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SavingsAccount.cs" />
+    <Compile Include="TimeUtilClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

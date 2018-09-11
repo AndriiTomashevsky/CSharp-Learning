@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Understanding the static Ke
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticDataAndMembers", "StaticDataAndMembers\StaticDataAndMembers.csproj", "{6F13CDA7-53CE-4F13-9124-A0D628D1213C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleUtilityClass", "SimpleUtilityClass\SimpleUtilityClass.csproj", "{331FE74C-A1C7-47C9-880B-8B1E5EAE6E63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{6F13CDA7-53CE-4F13-9124-A0D628D1213C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F13CDA7-53CE-4F13-9124-A0D628D1213C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F13CDA7-53CE-4F13-9124-A0D628D1213C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{331FE74C-A1C7-47C9-880B-8B1E5EAE6E63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{331FE74C-A1C7-47C9-880B-8B1E5EAE6E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{331FE74C-A1C7-47C9-880B-8B1E5EAE6E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{331FE74C-A1C7-47C9-880B-8B1E5EAE6E63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +32,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{366F7397-EB03-42FF-8041-C3761C3A90F1} = {5A27848D-976A-42A7-B71F-8212DF3B2963}
 		{6F13CDA7-53CE-4F13-9124-A0D628D1213C} = {366F7397-EB03-42FF-8041-C3761C3A90F1}
+		{331FE74C-A1C7-47C9-880B-8B1E5EAE6E63} = {366F7397-EB03-42FF-8041-C3761C3A90F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA5FF8E7-7166-4BF1-9593-3B843448199A}
