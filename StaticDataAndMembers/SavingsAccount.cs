@@ -18,6 +18,13 @@ class SavingsAccount
         currInterestRate = 0.04;
     }
 
+    // A static property.
+    public static double InterestRate
+    {
+        get { return currInterestRate; }
+        set { currInterestRate = value; }
+    }
+
     // Static members to get/set interest rate.
     public static void SetInterestRate(double newRate)
     {

@@ -26,6 +26,9 @@ namespace StaticDataAndMembers
             // Should print 0.08...right??
             Console.WriteLine("Interest Rate is: {0}", SavingsAccount.GetInterestRate());
 
+            // Print the current interest rate via property.
+            Console.WriteLine("Interest Rate is: {0}", SavingsAccount.InterestRate);
+
             Console.ReadLine();
         }
     }

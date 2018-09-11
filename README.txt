@@ -1,0 +1,1 @@
+Projects\C#\Troelsen A. - Pro C# 7. With .NET and .NET Core - 2017
