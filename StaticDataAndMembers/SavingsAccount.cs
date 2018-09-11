@@ -1,15 +1,21 @@
-﻿// A simple savings account class.
+﻿using System;
+
+// A simple savings account class.
 class SavingsAccount
 {
     public double currBalance;
     public static double currInterestRate;
 
-    // Notice that our constructor is setting
-    // the static currInterestRate value.
     public SavingsAccount(double balance)
     {
-        currInterestRate = 0.04; // This is static data!
         currBalance = balance;
+    }
+
+    // A static constructor!
+    static SavingsAccount()
+    {
+        Console.WriteLine("In static ctor!");
+        currInterestRate = 0.04;
     }
 
     // Static members to get/set interest rate.
