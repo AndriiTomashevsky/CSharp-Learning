@@ -8,22 +8,17 @@ namespace SimpleCSharpApp
 {
     class Program
     {
-        // int return type, array of strings as the parameter.
+        // Note we are now returning an int, rather than void.
         static int Main(string[] args)
         {
-            // Must return a value before exiting!
-            return 0;
-        }
+            // Display a message and wait for Enter key to be pressed.
+            Console.WriteLine("***** My First C# App *****");
+            Console.WriteLine("Hello World!");
+            Console.WriteLine();
+            Console.ReadLine();
 
-        // No return type, no parameters.
-        static void Main()
-        {
-        }
-        // int return type, no parameters.
-        static int Main()
-        {
-            // Must return a value before exiting!
-            return 0;
+            // Return an arbitrary error code.
+            return -1;
         }
     }
 }
