@@ -1,8 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SimpleCSharpApp
 {
@@ -15,9 +11,12 @@ namespace SimpleCSharpApp
             Console.WriteLine("***** My First C# App *****");
             Console.WriteLine("Hello World!");
             Console.WriteLine();
-            Console.ReadLine();
 
-            // Return an arbitrary error code.
+            // Process any incoming args.
+            for (int i = 0; i < args.Length; i++)
+                Console.WriteLine("Arg: {0}", args[i]);
+
+            Console.ReadLine();
             return -1;
         }
     }
